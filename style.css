@@ -1,6 +1,19 @@
+.page {
+    margin: auto;
+    width: 600px;
+}
+
 .synopsis {
     color: #7e8184;
     font-style: italic;
+}
+
+.synopsis em {
+    font-size: x-large;
+}
+
+.synopsis strong {
+    font-size: x-large;
 }
 
 .button {
@@ -18,7 +31,32 @@
     width: 200px;
 }
 
-.page {
-    margin: auto;
-    width: 600px;
+.call-to-action {
+    background-color: #eeb75a;
+}
+
+a:link {
+    color: #5995DA;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #eeb75a;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:visited:hover {
+    color: #eeb75a;
+}
+
+a:visited:active {
+    color: red;
 }
